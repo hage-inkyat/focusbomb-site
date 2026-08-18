@@ -1,0 +1,8 @@
+Contact: mailto:security@focusbomb.example
+Preferred-Languages: ja, en
+Canonical: https://focusbomb.example/.well-known/security.txt
+Policy: https://focusbomb.example/en/security
+
+# EXTERNAL_BLOCKER: replace security@focusbomb.example with a real, monitored mailbox before
+# production deploy (docs/HUMAN_ACTION_REQUIRED.md). PGP key line intentionally omitted --
+# second-goal spec section 16.12: "PGPは実際に用意した場合のみ".

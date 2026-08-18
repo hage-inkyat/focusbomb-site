@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Focus Bomb containment core</title>
+  <desc id="desc">Non-realistic concentric timing rings and logic nodes in charcoal and gold.</desc>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="44%" r="62%">
+      <stop offset="0" stop-color="#181818"/>
+      <stop offset="0.58" stop-color="#0b0b0b"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <circle cx="512" cy="512" r="470" fill="url(#bg)"/>
+  <g fill="none" stroke-linecap="round">
+    <circle cx="512" cy="512" r="342" stroke="#2A2A2A" stroke-width="32"/>
+    <circle cx="512" cy="512" r="342" stroke="#DCA900" stroke-width="4" stroke-dasharray="4 30" opacity="0.62"/>
+    <circle cx="512" cy="512" r="272" stroke="#2A2A2A" stroke-width="2"/>
+    <circle cx="512" cy="512" r="218" stroke="#FFC400" stroke-width="5" stroke-dasharray="250 54" filter="url(#glow)"/>
+    <circle cx="512" cy="512" r="142" stroke="#DCA900" stroke-width="2" opacity="0.72"/>
+  </g>
+  <g fill="#111111" stroke="#DCA900" stroke-width="3">
+    <rect x="474" y="126" width="76" height="52" rx="14"/>
+    <rect x="474" y="846" width="76" height="52" rx="14"/>
+    <rect x="126" y="474" width="52" height="76" rx="14"/>
+    <rect x="846" y="474" width="52" height="76" rx="14"/>
+  </g>
+  <g fill="#FFC400" filter="url(#glow)">
+    <circle cx="512" cy="512" r="16"/>
+    <circle cx="512" cy="294" r="7"/>
+    <circle cx="730" cy="512" r="7"/>
+    <circle cx="512" cy="730" r="7"/>
+    <circle cx="294" cy="512" r="7"/>
+  </g>
+  <path d="M512 512L512 384" stroke="#FFC400" stroke-width="12" stroke-linecap="round"/>
+</svg>

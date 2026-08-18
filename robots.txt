@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /result/
+Disallow: /admin/
+
+Sitemap: https://focusbomb.example/sitemap.xml

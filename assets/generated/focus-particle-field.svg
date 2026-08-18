@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" aria-hidden="true">
+  <defs>
+    <radialGradient id="veil" cx="72%" cy="42%" r="48%">
+      <stop offset="0" stop-color="#DCA900" stop-opacity="0.12"/>
+      <stop offset="0.44" stop-color="#111111" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#050505" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#050505"/>
+  <rect width="1600" height="900" fill="url(#veil)"/>
+  <g fill="#FFC400">
+    <circle cx="1140" cy="190" r="2" opacity="0.42"/>
+    <circle cx="1320" cy="330" r="1.5" opacity="0.6"/>
+    <circle cx="980" cy="470" r="1" opacity="0.36"/>
+    <circle cx="1450" cy="620" r="2" opacity="0.28"/>
+    <circle cx="1210" cy="735" r="1.5" opacity="0.5"/>
+    <circle cx="810" cy="250" r="1" opacity="0.3"/>
+  </g>
+  <g fill="none" stroke="#DCA900" opacity="0.14">
+    <circle cx="1170" cy="440" r="240"/>
+    <circle cx="1170" cy="440" r="330" stroke-dasharray="4 18"/>
+  </g>
+</svg>

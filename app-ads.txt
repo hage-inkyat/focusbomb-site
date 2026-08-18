@@ -1,0 +1,6 @@
+# Focus Bomb v1.0 ships with no advertising SDK, so there is no authorized seller to declare.
+# This file exists and is intentionally empty of seller lines: an app-ads.txt listing a
+# publisher we do not use would be a false declaration, and omitting the file entirely is
+# indistinguishable from having forgotten it.
+# If advertising is ever introduced, add the real publisher line here in the same change that
+# adds the SDK -- never before.

@@ -1,0 +1,43 @@
+<!DOCTYPE html><html lang="ja"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>プライバシーポリシー — Focus Bomb</title><meta name="description" content="Focus Bombのプライバシーポリシー。アプリは個人データを収集しません。"><link rel="canonical" href="https://hage-inkyat.github.io/focusbomb-site/legal/privacy"><link rel="alternate" hreflang="ja" href="https://hage-inkyat.github.io/focusbomb-site/legal/privacy"><link rel="alternate" hreflang="en" href="https://hage-inkyat.github.io/focusbomb-site/legal/privacy"><link rel="alternate" hreflang="x-default" href="https://hage-inkyat.github.io/focusbomb-site/legal/privacy"><meta property="og:title" content="プライバシーポリシー — Focus Bomb"><meta property="og:description" content="Focus Bombのプライバシーポリシー。アプリは個人データを収集しません。"><meta property="og:type" content="website"><meta property="og:locale" content="ja_JP"><meta name="twitter:card" content="summary_large_image"><link rel="icon" href="/focusbomb-site/favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="/focusbomb-site/_astro/index.DJx21G7x.css">
+<style>.legal-header[data-astro-cid-tj3fuujf],.legal-footer[data-astro-cid-tj3fuujf]{border-bottom:1px solid var(--color-border);padding-block:20px}.legal-footer[data-astro-cid-tj3fuujf]{border-bottom:none;border-top:1px solid var(--color-border);color:var(--color-text-secondary);font-size:.875rem}.logo-link[data-astro-cid-tj3fuujf]{font-weight:700;text-decoration:none;color:var(--color-text-primary)}.legal-page[data-astro-cid-tj3fuujf]{padding-block:48px 96px;max-width:800px;margin-inline:auto}.draft-banner[data-astro-cid-tj3fuujf]{background:var(--color-surface-low);border:1px solid var(--color-warning-amber);color:var(--color-warning-amber);border-radius:12px;padding:16px 20px;font-size:.875rem;margin-bottom:32px}.legal-page[data-astro-cid-tj3fuujf] h1[data-astro-cid-tj3fuujf]{font-size:2rem;margin:0 0 32px}.legal-page[data-astro-cid-tj3fuujf] h2{font-size:1.25rem;margin:32px 0 12px}.legal-page[data-astro-cid-tj3fuujf] p,.legal-page[data-astro-cid-tj3fuujf] li{color:var(--color-text-secondary);line-height:1.7}
+</style></head> <body> <a class="skip-link" href="#main-content"> 本文へスキップ </a>  <header class="legal-header" data-astro-cid-tj3fuujf> <div class="container" data-astro-cid-tj3fuujf> <a href="/focusbomb-site/ja" class="logo-link" data-astro-cid-tj3fuujf>Focus Bomb</a> </div> </header> <main id="main-content" class="legal-page" data-astro-cid-tj3fuujf> <div class="container" data-astro-cid-tj3fuujf>  <h1 data-astro-cid-tj3fuujf>プライバシーポリシー</h1>  <p>
+一般ユーザー向けの分かりやすい説明は<a href="/focusbomb-site/ja/privacy">プライバシー設計ページ</a>を
+    ご覧ください。本ページが正式な文書です。
+</p> <h2>結論</h2> <p> <strong>Focus Bombは個人データを収集しません。</strong>アプリはあなたのデータを送信する
+    通信を一切行いません。アカウント登録もログインもなく、広告SDKも分析SDKも、データを受け取る
+    サードパーティSDKも含んでいません。App Store Connectの「Appのプライバシー」でも
+<strong>「データを収集していません」</strong>と申告しています。
+</p> <h2>アプリが端末内に保存するもの</h2> <p>
+以下はすべて<strong>あなたのiPhoneの中だけ</strong>に保存され、外部へ送信されません。
+    アプリを削除すれば消えます。
+</p> <ul> <li>集中セッションの履歴（開始時刻・長さ・結果・スコア）</li> <li>保存したスケジュールと、自分で作成したレシピ</li> <li>封印対象として選んだアプリの指定（後述のとおり不透明なトークンです）</li> <li>進行中セッションの状態ファイル。改ざん検知のための鍵をキーチェーンに保存します</li> <li>オンボーディングと安全テストの完了状態</li> </ul> <h2>封印対象のアプリ名について</h2> <p>
+あなたが選んだアプリの名前は、<strong>アプリからは読み取れません</strong>。iOSの
+    Screen Time API（<code>FamilyActivitySelection</code>）が返すのは、その端末の中でしか
+    意味を持たない不透明なトークンであり、Focus Bombはそれを保存して封印に使うだけです。
+<strong>したがって「あなたが何を制限しているか」は端末の外に出ようがありません。</strong> </p> <h2>収集しないもの</h2> <ul> <li>氏名・メールアドレス・電話番号・連絡先</li> <li>位置情報（アプリは位置情報APIを一切使いません）</li> <li>写真・カメラ・マイク・音声・通話履歴・ヘルスケアデータ</li> <li>広告ID（IDFA）。トラッキングは行わず、ATTの許可も求めません</li> <li>集中中に何をしていたか、どのアプリを制限しているか</li> </ul> <h2>Appleのサービスを経由するもの</h2> <p>
+以下はあなたとAppleの間で行われる処理であり、<strong>私たちがその内容を受け取ることは
+    ありません</strong>。Appleの取り扱いはAppleのプライバシーポリシーに従います。
+</p> <ul> <li> <strong>App内課金</strong>：購入・復元はStoreKitがAppleと直接やり取りします。
+      アプリはAppleが返す「現在有効かどうか」だけを見ており、支払い情報には触れません。
+</li> <li> <strong>Game Center（任意）</strong>：ランキングタブでGame Centerに接続することを
+<strong>あなたが選んだ場合に限り</strong>、集中スコアがAppleのリーダーボードへ送信されます。
+      接続しなければ何も送信されません。
+</li> <li> <strong>通知</strong>：許可した場合、端末内でローカル通知を組み立てて表示します。
+      通知サーバーは介在しません。
+</li> </ul> <h2>サードパーティへの提供</h2> <p>
+ありません。広告事業者・分析事業者・データブローカーを含め、いかなる第三者にも
+    データを渡していません。渡すデータを保持していません。
+</p> <h2>データの削除</h2> <p>
+設定画面から、集中履歴の削除、または端末内データの全削除がいつでも行えます。
+    アプリを削除しても同様にすべて消えます。私たちの側に削除すべき控えは存在しません。
+</p> <h2>お子様のプライバシー</h2> <p>
+Focus Bombは<strong>利用者自身が自分の端末に課す</strong>ツールです。Screen Timeの認証は
+<code>.individual</code> のみで要求し、他者の端末を管理する機能・保護者管理機能は
+    ありません。
+</p> <h2>お問い合わせ</h2> <p> <a href="/focusbomb-site/ja/support">サポートページ</a>に記載の窓口からご連絡ください。
+</p> <h2>改訂履歴</h2> <p>2026-07-16: 初版作成。</p> <p>
+2026-08-19: 実装に合わせて全面改訂し、正式版として公開。旧版は匿名インストールID・
+    App Attest登録情報・セッションの生イベント等の収集を記載していたが、
+<strong>出荷版のアプリはこれらを収集しておらず、データ送信を行う通信自体が存在しない</strong>。
+    記載が実装より多くを申告している状態だったため訂正した。
+</p>  </div> </main> <footer class="legal-footer" data-astro-cid-tj3fuujf> <div class="container" data-astro-cid-tj3fuujf> <a href="/focusbomb-site/ja" data-astro-cid-tj3fuujf>Focus Bomb</a> </div> </footer>  </body></html> 
